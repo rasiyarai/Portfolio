@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rasiya Rai | IT E-Portfolio</title>
+<style>
+  :root{--ink:#111111;--accent:#0b7285;--muted:#555555;--line:#e3e3e3}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#fafafa;color:var(--ink);line-height:1.65}
+  a{color:var(--accent)}
+  .wrap{max-width:900px;margin:0 auto;padding:0 24px}
+
+  .nav{position:sticky;top:0;z-index:5;background:#fff;border-bottom:3px solid var(--accent);box-shadow:0 2px 8px rgba(0,0,0,.06)}
+  .nav .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;padding-top:12px;padding-bottom:12px;font-size:.92rem}
+  .nav a{text-decoration:none;color:var(--ink);font-weight:500}
+  .nav a:hover{color:var(--accent)}
+
+  .hero{background:var(--accent);color:#fff;padding:72px 0 64px;position:relative}
+  .hero::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:6px;background:var(--ink)}
+  .hero h1{margin:0 0 10px;font-size:2.8rem;font-weight:700;letter-spacing:-.5px}
+  .tagline{font-size:1.1rem;margin:0 0 14px;color:#fff}
+  .hero p.intro{max-width:640px;margin:0;color:#dddddd}
+
+  section{padding:48px 0 0}
+  h2{font-size:1rem;text-transform:uppercase;letter-spacing:2px;color:var(--accent);margin:0 0 18px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+  h3{margin:0 0 6px;font-size:1.08rem;color:var(--ink)}
+  .card{background:#fff;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:22px;margin-bottom:16px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .tag{border:1px solid var(--accent);color:var(--accent);background:#fff;padding:2px 11px;border-radius:999px;font-size:.84rem}
+  .meta{color:var(--muted);font-size:.9rem;margin:0 0 8px}
+  ul{margin:6px 0 0;padding-left:20px}
+  li{margin-bottom:6px}
+  .label{font-weight:700;color:var(--ink)}
+
+  footer{text-align:center;font-size:.88rem;color:var(--muted);padding:48px 24px;border-top:1px solid var(--line);margin-top:56px}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="#profile">Profile</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#experience">Experience</a>
+    <a href="#problem-solving">Problem solving</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Rasiya Rai</h1>
+    <p class="tagline">MIT Student | Aspiring IT Professional | Networking &amp; Cyber Security</p>
+    <p class="intro">Bringing my hospitality and business experience into the technology sector, with a focus on networks and cyber security.</p>
+  </div>
+</header>
+
+<section id="profile">
+  <div class="wrap">
+    <h2>Profile</h2>
+    <div class="card">
+      <p style="margin-top:0">I'm Rasiya Rai, a second-semester student in the Master in Information Technology (MIT) program at Himalayan College of Management. I want to expand my career in technology, bringing my hospitality and business experience with me and building on an interest I have always had in the field.</p>
+      <p>My background is practical. I completed +2 in Hotel Management and a Bachelor of Business Studies (BBS) at MAV College. I've worked as a server and admin on a cruise ship, interned in finance and administration at Heifer International Nepal, collected field data across districts of Nepal, and now run a small restaurant and an online clothing store. Running my own businesses gave me experience with customers, records and daily operations.</p>
+      <p>My academic journey has been guiding me deeper into technology. I want to expand my career in the IT sector, as I have always been interested in technology. I keep following that interest in my free time through online courses in new IT skills.</p>
+      <p style="margin-bottom:0"><span class="label">Career objective:</span> To expand my professional capabilities in the IT sector by securing a junior-level IT position or internship, where I can contribute to developing and delivering practical technology solutions.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Technical Skills</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Networking &amp; Cybersecurity</h3>
+        <p class="meta" style="margin:8px 0 2px"><span class="label">Networking</span></p>
+        <div class="tags"><span class="tag">IP addressing</span><span class="tag">Basic Cisco</span></div>
+        <p class="meta" style="margin:12px 0 2px"><span class="label">Cybersecurity</span></p>
+        <div class="tags"><span class="tag">Basic penetration testing</span><span class="tag">Kali Linux</span></div>
+      </div>
+      <div class="card">
+        <h3>Databases</h3>
+        <div class="tags"><span class="tag">MySQL</span><span class="tag">PostgreSQL</span></div>
+      </div>
+      <div class="card">
+        <h3>Systems &amp; Programming</h3>
+        <div class="tags"><span class="tag">Linux</span><span class="tag">Java</span><span class="tag">Python</span></div>
+      </div>
+      <div class="card">
+        <h3>Microsoft Office</h3>
+        <div class="tags"><span class="tag">Excel</span><span class="tag">Word</span><span class="tag">MS Visual Basic</span></div>
+      </div>
+      <div class="card">
+        <h3>Finance &amp; Accounting</h3>
+        <div class="tags"><span class="tag">Finance / accounting course</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Academic Projects</h2>
+
+    <div class="card">
+      <h3>Computer Networking Labs in Cisco Packet Tracer</h3>
+      <p class="meta">Academic project · Six guided networking labs</p>
+      <ul>
+        <li><span class="label">Simple network:</span> built a basic network connecting devices</li>
+        <li><span class="label">DHCP on a wireless router:</span> connected three PCs to a wireless router and changed the DHCP address range, so all three PCs received addresses automatically</li>
+        <li><span class="label">Wireless router and client:</span> configured a wireless router and connected a wireless client</li>
+        <li><span class="label">MAC and IP addresses:</span> identified the MAC and IP addresses of devices</li>
+        <li><span class="label">LAN:</span> built a local area network connecting multiple devices</li>
+        <li><span class="label">Routed network traffic:</span> observed how traffic flows between networks through a router</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>School Enrollment System</h3>
+      <p class="meta">Academic project · MySQL · Individual work</p>
+      <ul>
+        <li>Mapped the enrollment steps (eligibility, seat availability, registration, confirmation) in a data flow diagram</li>
+        <li>Built the database in MySQL</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>LAN Design for Nepal Media House Head Office</h3>
+      <p class="meta">Academic project · Data Communication and Network course, individual work</p>
+      <ul>
+        <li>Designed a LAN for a three-floor office with a core switch, firewall, wireless access and an email server</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Skill Bridge: Cloud Platform Project Plan</h3>
+      <p class="meta">Academic project · Microsoft Project · Gantt chart</p>
+      <ul>
+        <li>Planned the development of Skill Bridge, a cloud-based platform that helps job seekers prepare for the job market through skills assessment, learning paths, job matching and mentorship</li>
+        <li>Created a Gantt chart with six tasks across four phases, linking each task to the one before it to show the sequence of work</li>
+        <li>Covered the full project lifecycle, from planning and setup through phased development to a post-launch review</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <div class="wrap">
+    <h2>Certifications &amp; Education</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Certificates</h3>
+        <ul>
+          <li>Cyber Security, Code IT, 2026</li>
+          <li>Database, NIIT Computer, 2017</li>
+          <li>Accounting / Finance, NIIT Computer, 2017</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Education</h3>
+        <ul>
+          <li>MIT, Himalayan College of Management</li>
+          <li>BBS, MAV College, 2021</li>
+          <li>+2 Hotel Management, Navodaya HSS, 2016</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+    <div class="card">
+      <ul style="margin-top:0">
+        <li><span class="label">Intern, Finance &amp; Administration Department</span>, Heifer International Nepal<br>Supported the department's finance and administrative work, including day-to-day records and paperwork.</li>
+        <li><span class="label">Data Collection (Surveyor)</span>, Heifer International Nepal<br>Collected field data from different districts of Nepal for the organisation's work.</li>
+        <li><span class="label">Server / Admin</span>, Marella Cruise (Britannia Ship Service)<br>Worked in guest service and administration in a hospitality setting.</li>
+        <li><span class="label">Owner, Sam's Café</span><br>Manage the day-to-day running of a small restaurant.</li>
+        <li><span class="label">Owner, Hana Store</span> (online clothing)<br>Run a small online clothing business.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="problem-solving">
+  <div class="wrap">
+    <h2>Problem Solving</h2>
+    <div class="card">
+      <p class="meta" style="margin-bottom:8px">Academic case study from my LAN Design project</p>
+      <ul style="margin-top:0">
+        <li><span class="label">Problem:</span> staff on three floors needed to share printers and an email server, and reach the internet securely</li>
+        <li><span class="label">Approach:</span> planned an access switch for each department, joined to a core switch, with a firewall between the network and the internet and wireless access points for mobile devices</li>
+        <li><span class="label">Result:</span> a single, organised network design that connects every department</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <div class="card">
+      <ul style="margin-top:0">
+        <li>Email: <a href="mailto:rasiyaluhun@gmail.com">rasiyaluhun@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>&copy; 2026 Rasiya Rai</footer>
+
+</body>
+</html>

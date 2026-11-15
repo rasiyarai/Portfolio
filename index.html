@@ -17,9 +17,12 @@
   .nav a{text-decoration:none;color:var(--ink);font-weight:500}
   .nav a:hover{color:var(--accent)}
 
-  .hero{background:var(--accent);color:#fff;padding:72px 0 64px;position:relative}
+  .hero{background:linear-gradient(120deg,var(--accent) 62%,var(--ink) 62%);color:#fff;padding:84px 0 76px;position:relative}
   .hero::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:6px;background:var(--ink)}
-  .hero h1{margin:0 0 10px;font-size:2.8rem;font-weight:700;letter-spacing:-.5px}
+  .hero-row{display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap}
+  .hero h1{margin:0 0 12px;font-size:3.4rem;font-weight:700;letter-spacing:-1px;line-height:1.05}
+  .monogram{width:160px;height:160px;border:3px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:3.2rem;font-weight:700;letter-spacing:3px;flex-shrink:0;background:var(--ink)}
+  @media(max-width:600px){.hero h1{font-size:2.5rem}.monogram{width:120px;height:120px;font-size:2.4rem}}
   .tagline{font-size:1.1rem;margin:0 0 14px;color:#fff}
   .hero p.intro{max-width:640px;margin:0;color:#dddddd}
 
@@ -52,10 +55,11 @@
 </nav>
 
 <header class="hero">
-  <div class="wrap">
-    <h1>Rasiya Rai</h1>
-    <p class="tagline">MIT Student | Aspiring IT Professional | Networking &amp; Cyber Security</p>
-    <p class="intro">Bringing my hospitality and business experience into the technology sector, with a focus on networks and cyber security.</p>
+  <div class="wrap hero-row">
+    <div>
+      <h1>Rasiya Rai</h1>
+      <p class="tagline">MIT Student | Learning, building and growing my skill in technology</p>
+    </div>
   </div>
 </header>
 
@@ -193,6 +197,7 @@
     <div class="card">
       <ul style="margin-top:0">
         <li>Email: <a href="mailto:rasiyaluhun@gmail.com">rasiyaluhun@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/rasiyarai" target="_blank" rel="noopener">github.com/rasiyarai</a></li>
       </ul>
     </div>
   </div>
